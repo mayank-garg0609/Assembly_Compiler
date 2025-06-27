@@ -63,7 +63,7 @@ $$
     \end{cases} \\ 
     [\text{Term}] &\to
     \begin{cases}
-        \text{int\_lit} \\
+        \text{integer} \\
         \text{ident} \\
         ([\text{Expr}])
     \end{cases}
