@@ -14,12 +14,19 @@ int main(int argc, char* argv[])
         std::cerr << "hydro <input.hy>" << std::endl;
         return EXIT_FAILURE;
     }
-
+    
     std::string contents;
     {
         std::stringstream contents_stream;
-        std::fstream input(argv[1], std::ios::in);
+        std::fstream input(argv[1], std::ios::in);                
+        // std::fstream input("test1.hy", std::ios::in);
+        if (!input.is_open()) {
+            std::cerr << "Could not open test1.hy" << std::endl;
+            return EXIT_FAILURE;
+        }
         contents_stream << input.rdbuf();
+        input.close();
+
         contents = contents_stream.str();
     }
 

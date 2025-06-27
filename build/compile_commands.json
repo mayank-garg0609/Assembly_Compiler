@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/mayank/CODES/hydrogen-cpp-master/hydrogen-cpp-master/build",
-  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/hydro.dir/src/main.cpp.o -c /home/mayank/CODES/hydrogen-cpp-master/hydrogen-cpp-master/src/main.cpp",
-  "file": "/home/mayank/CODES/hydrogen-cpp-master/hydrogen-cpp-master/src/main.cpp"
-}
-]
